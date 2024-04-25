@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome_To_Bong_Food</title>
+     <style>
+         body{ 
+             align-items: margin-right;
+             background-image: url(
+                https://thumbs.dreamstime.com/z/print-205749354.jpg
+             )  ;
+             background-repeat: no-repeat;
+             background-size: 950px;
+         width: 300px;
+        height: 300px;
+        linear-gradient(rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)),     
+
+         }
+        
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Cairo:wght@200..1000&family=Dancing+Script:wght@400..700&family=Jersey+10&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+        p3{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-transform:uppercase;
+   text-decoration: underline;
+   text-decoration-color:aqua;
+   text-decoration-style:doted;
+   text-decoration-thickness:7px;
+    text-indent:45px;
+        }
+        #login-form {
+    top: 0.3em;
+    right: 0.3em;
+    position: absolute;
+} 
+ 
+     </style>
+</head>
+
+
+
+<body>
+    
+  <p3>
+    "Welcome to our page! <br>Explore and discover a world of Bengali Food with us.<br> Whether you're here for inspiration, information, or just to indulge your curiosity,<br> we're thrilled to have you. <br>Join us on a journey of discovery, learning, authentic Food searching.<br> Let's embark on this adventure together!"
+  </p3>
+       
+  <div id="topbar">
+    <form id="login-form" action="action">
+        <div>
+             <input type="Name" id="login-Name" >
+             <br><br>
+
+            <input type="email" id="login-email" />
+            <br><br>
+            <input type="password" id="login-password" />
+            <br></br>
+            <input type="submit" class="btn btn-info" id="login-button" value="Create Acount " alt="please check your Deatails"/>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
