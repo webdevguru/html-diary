@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0vw;
+            padding:0vw;
+        }
+       
+       .container
+       {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+       .parentbox{
+            width: 960px;
+            height: 570px;
+            background-color:black;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+       }
+       .parentbox:hover::before {
+        left: 0%; /* Move the overlay to the right edge of the card */
+    }
+
+    .parentbox::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: darkgoldenrod; /* Adjust the overlay color and opacity */
+        transition:left 5s ease;
+    }
+       .leftbox {
+            width: 45%; /* Set the width of each box */
+            height: 90%;
+            background-color: #333;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+           flex-direction: column;
+       }
+       .rightbox {
+            width: 45%; /* Set the width of each box */
+            height: 90%;
+            background-color: #333;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            background-image:url();
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+       .rightbox img  {
+             border-radius: 10px;
+       }
+       .lefttbox img  {
+             border-radius: 20px;
+       }
+       .leftbox h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+            color:goldenrod;
+            font-style:italic ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="parentbox">
+            <div class="leftbox">
+                <h2>KORBO LORBO JITBO</h2>
+                  <br> </br>
+               <img src=https://www.insidesport.in/wp-content/uploads/2023/03/1133320-shreyas-iyer-twitter.jpg alt="img"
+               width=85% height=70%>
+
+            </div>
+            <div class="rightbox">
+
+                <img src="https://th.bing.com/th/id/OIP.6xAB8ZjsSY45d561xCZ7ggHaEK?w=311&h=180&c=7&r=0&o=5&pid=1.7" alt="img"
+                 width=95% height=90%>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
