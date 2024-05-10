@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            /* min-height: 980px; */
+            background-color: #FBAB7E;
+            background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+        }
+
+        .card {
+            width: 360px;
+            height: 570px;
+            background-color: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .card img {
+            height: 57%;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 1.2em;
+        }
+        .card2 {
+            width: 360px;
+            height: 570px;
+            background-color: white;
+            border-radius: 20px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .card2 img {
+            height: 57%;
+            border-radius: 10px;
+        }
+
+        .card2 h2 {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+            <img src=https://wallpaperaccess.com/full/1906969.jpg>
+
+            </p>
+            <h2>"Login Here"</h2>
+            <form action="login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <br>
+                <input type="submit" value="Login">
+                <br>
+                <a href="forgot_password.html">Forgot Password?</a>
+                <br>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <br>
+                <input type="submit" value="Reset Password">
+
+            </form>
+        </div>
+
+        <!-- <div class="container">
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Sign Up">
+
+            </form>
+
+        </div> -->
+        <div class="card2">
+
+            <img src="https://th.bing.com/th/id/OIP.EzCdCBvjpb1guDstYws00QAAAA?w=312&h=764&rs=1&pid=ImgDetMain"
+                alt="">
+
+                <form action="signup.php" method="post">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <br> <br>
+
+                    <input type="password" name="password" placeholder="Password" required>
+                    <br> <br>
+                    <input type="submit" value="Sign Up">
+    
+                </form>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
